@@ -1,11 +1,14 @@
 var SpotifyWebApi = require('../');
 
+
 /*
  * This example shows how to get artists related to another artists. The endpoint is documented here:
  * https://developer.spotify.com/web-api/get-related-artists/
  * Please note that authorization is now required and so this example retrieves an access token using the Authorization Code Flow,
  * documented here: https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow
  */
+
+function getArtists(){
 
 var authorizationCode =
   'AQAgjS78s64u1axMCBCRA0cViW_ZDDU0pbgENJ_-WpZr3cEO7V5O-JELcEPU6pGLPp08SfO3dnHmu6XJikKqrU8LX9W6J11NyoaetrXtZFW-Y58UGeV69tuyybcNUS2u6eyup1EgzbTEx4LqrP_eCHsc9xHJ0JUzEhi7xcqzQG70roE4WKM_YrlDZO-e7GDRMqunS9RMoSwF_ov-gOMpvy9OMb7O58nZoc3LSEdEwoZPCLU4N4TTJ-IF6YsQRhQkEOJK';
@@ -46,3 +49,4 @@ spotifyApi
     console.log('Something went wrong:', err.message);
   }
 );
+}

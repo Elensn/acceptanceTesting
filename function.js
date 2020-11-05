@@ -1,4 +1,6 @@
 
-function acceptanceTest(x,y){
-  return x * y;
+exports.myfunction = (event, context) => {
+    return {
+        'data': 'Hello world!',
+    };
 }

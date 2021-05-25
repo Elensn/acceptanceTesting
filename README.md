@@ -1,2 +1,2 @@
-# acceptanceTesting
+# BRTestRepository
 Repository for testing purposes 

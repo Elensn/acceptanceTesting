@@ -1,6 +1,6 @@
 
 exports.myfunction = (event, context) => {
     return {
-        'data': 'Hello world!',
+        'data': 'BrTestingBranch was used!',
     };
 }

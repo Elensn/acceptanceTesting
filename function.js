@@ -5,9 +5,9 @@ exports.myfunction = (event, context) => {
     };
 }
 
-exports.printUtf8 = (event, context) => {
+exports.printText = (event, context) => {
     var message = 'text';
-    console.log(utf8.encode(message));
+    console.log(message);
 
     return {
         'status': 200,

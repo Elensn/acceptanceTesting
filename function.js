@@ -15,3 +15,14 @@ exports.printText = (event, context) => {
         
     };
 };
+
+exports.printError = (event, context) => {
+     var message = 'error';
+    console.log(utf8.encode(message));
+
+    return {
+        'status': 500,
+        'data': 'Error',
+        
+    };
+};
